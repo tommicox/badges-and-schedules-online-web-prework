@@ -17,4 +17,5 @@ def assign_rooms(attendees)
 end
 end
 def printer
-  "Hel"
+  batch_badge_creator.map do |attendee|
+    assign_rooms.map do |attendee, index|

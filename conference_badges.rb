@@ -1,6 +1,5 @@
 # Write your code here.
-attendees = ()
-def badge_maker(names)
-  names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  puts "Hello, my name is #{names}."
+attendees = ["Edsger", "Ada","Charles", "Alan", "Grace", "Linus", "Matz"]
+def badge_maker("Arel")
+  puts "Hello, my name is Arel."
 end
